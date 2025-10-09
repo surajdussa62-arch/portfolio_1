@@ -75,6 +75,19 @@
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 25px;
         }
+        .skills{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .skills:hover{
+            transform: translateY(-10px);
+        }
         .project-card {
             perspective: 1000px;
             height: 300px;
@@ -222,6 +235,11 @@
                 </div>
             </div>
         </div>
+        <h2>Skills</h2>
+        <div class="skills">
+            <u><h3>Cyber Security</h3></u>
+            <p>Networking	TCP/IP, DNS, DHCP, Subnetting, OSI Model, Firewalls, VPN
+Operating Systems	Linux (Kali, Ubuntu), Windows Server, Command Line</p>
     </section>
 
     <section id="contact">
@@ -270,3 +288,4 @@
 </body>
 
 </html>
+
